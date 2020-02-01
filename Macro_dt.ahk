@@ -1,4 +1,8 @@
 SendMode Input
+#maxthreadsperhotkey 2
+#NoEnv
+#MaxHotkeysPerInterval 500
+#UseHook
 
 Gui, 1:+ToolWindow
 Gui, 1:Color, White
@@ -21,3 +25,4 @@ Gui, 1:Color, Red
 sleep,200
 Gui, 1:Color, White
 return
+
